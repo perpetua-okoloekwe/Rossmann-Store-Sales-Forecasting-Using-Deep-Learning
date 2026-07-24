@@ -150,21 +150,6 @@ rossmann-store-sales-forecasting/
 ├── notebooks/
 │   └── Rossmann_Forecasting.ipynb
 │
-├── models/
-│   ├── rnn_model.pth
-│   ├── lstm_model.pth
-│   ├── attention_model.pth
-│   └── transformer_model.pth
-│
-├── artifacts/
-│   ├── scaler.pkl
-│   ├── target_scaler.pkl
-│   ├── features.pkl
-│   ├── storetype_encoder.pkl
-│   ├── assortment_encoder.pkl
-│   ├── stateholiday_encoder.pkl
-│   └── promointerval_encoder.pkl
-│
 ├── images/
 │   ├── Average_Sales_By_StoreType.png
 │   ├── Average_Sales_By_Month.png
@@ -177,6 +162,28 @@ rossmann-store-sales-forecasting/
 ├── README.md
 │
 └── requirements.txt
+
+
+
+---
+
+## Reproducibility Note
+
+During experimentation, preprocessing artifacts and trained model weights were generated in Google Colab.
+
+These files were not preserved after the original training session ended and are therefore not included in this repository.
+
+The complete notebook, visualizations, workflow, model architectures, evaluation results, and documentation remain available to reproduce the study.
+
+---
+
+## Author
+
+**Perpetua Okoloekwe**
+
+Data Scientist | Aspiring AI Engineer
+
+Building in public, one project at a time. 🌱
 ```
 
 ## Author
